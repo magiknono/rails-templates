@@ -259,7 +259,7 @@ def git_config
   say 'Creating Git Repo...', :green
   git :init
   git add: '.'
-  git commit: "-m 'init new rails 6 project with template from https://github.com/magiknono/rails-template.git"
+  git commit: "-m 'init new rails 6 project with template from https://github.com/magiknono/rails-templates.git"
 end
 
 def message_end
